@@ -1,0 +1,11 @@
+<%- include("../partials/header",{title:title}) %> 
+<div class="main">
+    <div class="song-1">
+        <h1 class="song-2"><%= song.title %> </h1>
+        <h3 class="song-3"><%= song.artist %> </h3>
+        <h5 class="song-4"><%= song.streams %> </h5>
+    </div>
+    <a href="/songPage/<%= song.rank-1 %> ">Previous</a>
+     <a href="/songPage/<%= song.rank+1 %> ">Next</a>
+</div>
+<%- include("../partials/footer")  %> 

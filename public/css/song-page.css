@@ -1,1 +1,30 @@
 /* song page css */
+.song-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 5px black;
+  height: 500px;
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.song-2 {
+  border-bottom: 1px solid black;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.song-4 {
+  font-size: 200px;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ccc;
+}

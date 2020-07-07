@@ -1,1 +1,32 @@
 /* song css */
+.song {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+}
+
+.song1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.song2 {
+  font-size: 50px;
+  margin: 10px;
+}
+.song4 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.song5 {
+  font-style: italic;
+  margin-top: 10px;
+}
+.song7 {
+  display: flex;
+  align-items: flex-end;
+  /* align-items: right; */
+}
